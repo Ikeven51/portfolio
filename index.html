@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ike Ven Louie Anicete - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Ike Ven Louie Anicete</h1>
+        <p>Software Engineer | Web Developer | Digital Marketer</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate web developer with experience in front-end and back-end technologies. Skilled in Angular, PHP, JavaScript, and e-commerce platforms.</p>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <div class="experience">
+            <h3>Ecell Philippines (Dec 2024 - Feb 2025)</h3>
+            <p><strong>Software Engineer | Fresh Grad / Entry Level</strong></p>
+            <p>During my time in Ecell Global Inc. I have developed PHP/Python tools for automation, and ensured marketplace compliance. Here is an example of listings</p>
+        </div>
+        <div class="experience">
+            <h3>Clark Outsourcing (Jan 2024 - Apr 2024)</h3>
+            <p><strong>Intern | IT/Software Development</strong></p>
+        </div>
+        <div class="experience">
+            <h3>D&X London (Jul 2023 - Dec 2023)</h3>
+            <p><strong>Digital Marketer | Marketing/Business Development</strong></p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Listings</h3>
+            <p>Developed a PHP/Python tool to automate e-commerce listing management across multiple platforms.</p>
+            <button id="show-listings">Manage Listings</button>
+        </div>
+        <div class="project">
+            <h3>Interactive To-Do List</h3>
+            <p>A simple interactive to-do list where users can add and remove tasks.</p>
+            <button id="show-todo">Try To-Do List</button>
+        </div>
+    </section>
+
+    <section id="listings-container" style="display: none;">
+        <h2>Listings</h2>
+        <form id="listing-form">
+            <label for="sku">SKU:</label>
+            <input type="text" id="sku" name="sku" required>
+            
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" name="product-name" required>
+            
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+            
+            <button type="submit">Add Listing</button>
+        </form>
+        <ul id="listings-list"></ul>
+    </section>
+
+    <section id="todo-container" style="display: none;">
+        <h2>Interactive To-Do List</h2>
+        <input type="text" id="todo-input" placeholder="Enter a task">
+        <button id="add-todo">Add Task</button>
+        <ul id="todo-list"></ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>View my full resume here: <a href="https://IkeVenLouieAnicete.jobs180.com" target="_blank">Ike Ven Louie Anicete Resume</a></p>
+        <p><a href="Ike Ven Louie-Anicete_Resume.pdf" download>Download Resume</a></p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Angular</li>
+            <li>JavaScript & TypeScript</li>
+            <li>PHP & MySQL</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>E-Commerce Development</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: ikevenlouie@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/YOUR_USERNAME">github.com/YOUR_USERNAME</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/YOUR_USERNAME">linkedin.com/in/YOUR_USERNAME</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Ike Ven Louie Anicete</p>
+    </footer>
+</body>
+</html>

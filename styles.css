@@ -1,0 +1,87 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #0f0;
+}
+
+header {
+    background: #111;
+    color: #0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #111;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #0f0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #222;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #0f0;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #111;
+    color: #0f0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
